@@ -1,0 +1,15 @@
+.Machine{
+    border: 2px solid black;
+    background: lightblue;
+    padding: 2px;
+}
+
+.Machine-Win {
+    background: green;
+    color: white;
+}
+
+.Machine-Lose {
+    background: red;
+    color: white;
+}

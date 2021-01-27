@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JSX Demo</title>
+</head>
+<body>
+    <!-- <h1>JSX Demo</h1> -->
+
+  <div id="root"><!-- component will go here --></div>
+
+  <script src="https://unpkg.com/react/umd/react.development.js"></script><!-- import React -->
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script> <!-- React Dom works with above React -->
+
+  <script src="https://unpkg.com/babel-standalone"></script> <!-- babel takes jsx and turns into javascript -->
+  <script src="Hello.js" type="text/jsx"></script> <!-- MUST COME BEFORE INDEX --> 
+  <script src="index.js" type="text/jsx"></script> <!-- script to js actual file in use. Make sure type=text/jsx. --> 
+
+</script>
+</body>
+</html>
